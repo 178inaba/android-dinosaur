@@ -94,13 +94,13 @@ public class OthelloActivity extends Activity implements OnClickListener {
 
     /** ボタン(スタート) */
     private Button startButton;
-    
+
     /** ボタン(OK) */
     private Button notTurnButton;
 
     /** レイアウト(スタート) */
     private LinearLayout startLayout;
-    
+
     /** レイアウト(ターン変更) */
     private LinearLayout notTurnLayout;
 
