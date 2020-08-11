@@ -24,7 +24,7 @@ public class TopActivity extends Activity implements OnClickListener {
     private Button othelloButton;
     private Button twitterButton;
 
-    // twitter
+    // Twitter
     public static RequestToken _req = null;
     public static OAuthAuthorization _oauth = null;
 
@@ -78,13 +78,13 @@ public class TopActivity extends Activity implements OnClickListener {
 
         @Override
         protected Void doInBackground(Void... arg0) {
-            //Twitetr4jの設定を読み込む
+            // Twitter4Jの設定を読み込む
             Configuration conf = ConfigurationContext.getInstance();
-            //Oauth認証オブジェクト作成
+            // OAuth認証オブジェクト作成
             _oauth = new OAuthAuthorization(conf);
-            //Oauth認証オブジェクトにconsumerKeyとconsumerSecretを設定
+            // OAuth認証オブジェクトにconsumerKeyとconsumerSecretを設定
             _oauth.setOAuthConsumer(getString(R.string.consumer_key), getString(R.string.consumer_secret));
-            //アプリの認証オブジェクト作成
+            // アプリの認証オブジェクト作成
             try {
                 _req = _oauth.getOAuthRequestToken(getString(R.string.callback_uri));
             } catch (TwitterException e) {

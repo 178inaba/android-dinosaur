@@ -218,7 +218,7 @@ public class OthelloActivity extends Activity implements OnClickListener {
             for (int i = 0; i < 8; i++) {
                 for (int j = 0; j < 8; j++) {
                     if (imageViewArray[i][j].equals(v)) {
-                        stornCheck(i, j);
+                        stoneCheck(i, j);
                     }
                 }
             }
@@ -229,7 +229,7 @@ public class OthelloActivity extends Activity implements OnClickListener {
      * 石を置いた際に裏返る石をチェック
      *
      */
-    private void stornCheck(int i, int j) {
+    private void stoneCheck(int i, int j) {
         // 石があるかどうか
         if (bord[i][j] == BLANK) {
             int copyi = i, copyj = j;
