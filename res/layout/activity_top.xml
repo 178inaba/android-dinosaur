@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black" >
+    <Button
+        android:id="@+id/number_touch_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/number_touch_str" />
+    <Button
+        android:id="@+id/opengl_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opengl_str" />
+    <Button
+        android:id="@+id/othello_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/othello_str" />
+    <Button
+        android:id="@+id/twitter_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/twitter_str" />
+</LinearLayout>

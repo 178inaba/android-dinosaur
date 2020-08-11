@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="top">提出アプリ</string>
+    <string name="reset">リセット！</string>
+    <string name="start">スタート！</string>
+    <string name="number_touch_str">NumberTouch!</string>
+    <string name="opengl_str">OpenGL</string>
+    <string name="othello_str">オセロ</string>
+    <string name="oauth_str">OAuth</string>
+    <string name="twitter_str">Twitter</string>
+    <string name="batting_first">先攻は黒です。</string>
+    <string name="white_turn">白の番です。</string>
+    <string name="black_turn">黒の番です。</string>
+    <string name="not_put">そこには置けません！！</string>
+    <string name="title_activity_open_gl">OpenGl</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_twitter">TwitterActivity</string>
+    <string name="consumer_key">your_consumer_key</string>
+    <string name="consumer_secret">your_consumer_secret</string>
+    <string name="voice_tweet_str">ボイスツイート</string>
+    <string name="callback_uri">testcallback://TwitterActivity</string>
+    <string name="voice_prompt">しゃべったことをツイートします！</string>
+    <string name="device_not_supported">この端末では対応していません</string>
+    <string name="verifier">oauth_verifier</string>
+    <string name="log_twitter">TwitterActivity</string>
+    <string name="timeline_reload">タイムライン更新</string>
+    <string name="ok">OK</string>
+    <string name="not_turn">置ける場所がないので相手にターンが移ります。</string>
+
+</resources>

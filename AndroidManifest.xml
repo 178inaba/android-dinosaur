@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pt.test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/top"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.pt.test.TopActivity"
+            android:label="@string/top" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pt.test.NumberTouchActivity"
+            android:label="@string/number_touch_str" >
+        </activity>
+        <activity
+            android:name="com.pt.test.OpenGlActivity"
+            android:label="@string/title_activity_open_gl" >
+        </activity>
+        <activity android:name="com.pt.test.OthelloActivity" >
+        </activity>
+        <activity android:name="com.pt.test.TwitterActivity" android:label="@string/title_activity_twitter" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="testcallback" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" ></uses-permission>
+</manifest>
