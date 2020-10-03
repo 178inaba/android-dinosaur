@@ -6,6 +6,15 @@ The English word "Dinosaur" also means "old and outdated".
 This project is an excavation of an app I made when the Android version was Android 2.3.3 (Gingerbread MR1), and I imported it into Android Studio and revived it.  
 (At that time I made it with Eclipse ADT.)
 
+## Setup Secrets
+
+Copy `secret-example.properties` to `secret.properties` and edit `secret.properties`.
+
+```console
+$ cp secret-example.properties secret.properties
+$ vim secret.properties
+```
+
 ## License
 
 [MIT](LICENSE)
