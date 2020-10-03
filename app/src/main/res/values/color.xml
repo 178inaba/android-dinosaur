@@ -4,5 +4,6 @@
     <color name="start_layout">#AAFFFFFF</color>
     <color name="skeleton">#00000000</color>
     <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
 
 </resources>

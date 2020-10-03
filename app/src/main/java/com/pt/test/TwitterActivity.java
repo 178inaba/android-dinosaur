@@ -201,7 +201,7 @@ public class TwitterActivity extends Activity implements OnClickListener {
             try {
                 // タイムラインの取得(自分のデフォルトタイムライン)
                 ResponseList<twitter4j.Status> homeTimeline = twitter.getHomeTimeline();
-                adapter = new ArrayAdapter<String>(getApplicationContext(), android.R.layout.simple_list_item_1);
+                adapter = new ArrayAdapter<String>(getApplicationContext(), R.layout.list_item_tweet);
 
                 // タイムラインを一件づつ処理
                 for (twitter4j.Status status : homeTimeline) {
