@@ -154,7 +154,7 @@ public class TwitterActivity extends Activity implements OnClickListener {
             twitter = new TwitterFactory().getInstance();
 
             // Consumer key & Consumer secretをTwitterインスタンスに設定
-            twitter.setOAuthConsumer(getString(R.string.consumer_key), getString(R.string.consumer_secret));
+            twitter.setOAuthConsumer(BuildConfig.CONSUMER_KEY, BuildConfig.CONSUMER_SECRET);
 
             // AccessTokenをTwitterインスタンスに設定
             twitter.setOAuthAccessToken(token);

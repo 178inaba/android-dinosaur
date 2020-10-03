@@ -83,7 +83,7 @@ public class TopActivity extends Activity implements OnClickListener {
             // OAuth認証オブジェクト作成
             _oauth = new OAuthAuthorization(conf);
             // OAuth認証オブジェクトにconsumerKeyとconsumerSecretを設定
-            _oauth.setOAuthConsumer(getString(R.string.consumer_key), getString(R.string.consumer_secret));
+            _oauth.setOAuthConsumer(BuildConfig.CONSUMER_KEY, BuildConfig.CONSUMER_SECRET);
             // アプリの認証オブジェクト作成
             try {
                 _req = _oauth.getOAuthRequestToken(getString(R.string.callback_uri));

@@ -1,5 +1,9 @@
 apply plugin: 'com.android.application'
 
+def secretPropertiesFile = rootProject.file('secret.properties')
+def secretProperties = new Properties()
+secretProperties.load(new FileInputStream(secretPropertiesFile))
+
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.1"
@@ -8,6 +12,9 @@ android {
         applicationId "com.pt.test"
         minSdkVersion 14
         targetSdkVersion 30
+
+        buildConfigField('String', 'CONSUMER_KEY', secretProperties['CONSUMER_KEY'])
+        buildConfigField('String', 'CONSUMER_SECRET', secretProperties['CONSUMER_SECRET'])
     }
 
     buildTypes {
