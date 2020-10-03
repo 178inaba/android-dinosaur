@@ -18,8 +18,6 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_twitter">TwitterActivity</string>
-    <string name="consumer_key">your_consumer_key</string>
-    <string name="consumer_secret">your_consumer_secret</string>
     <string name="voice_tweet_str">ボイスツイート</string>
     <string name="callback_uri">testcallback://TwitterActivity</string>
     <string name="voice_prompt">しゃべったことをツイートします！</string>
